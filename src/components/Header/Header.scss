@@ -1,0 +1,15 @@
+header {
+    background-color: $accent-color;
+    padding: 22px 0;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    nav {
+        display: flex;
+        justify-content: center;
+        a {
+            display: flex;
+            gap: 1rem;
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}

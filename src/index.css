@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #2B283A;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  color: #2B283A;
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 1400px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #F55A5A;
+  padding: 22px 0;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav a {
+  display: flex;
+  gap: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card {
+  font-size: 0.75rem;
+  font-weight: 300;
+  display: flex;
+  gap: 1.5rem;
+  line-height: 1;
+  flex-direction: column;
+}
+@media screen and (min-width: 500px) {
+  .card {
+    flex-direction: row;
+  }
+}
+.card img {
+  border-radius: 0.5625rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media screen and (min-width: 500px) {
+  .card img {
+    width: 125px;
+  }
+}
+.card .card__place-wrap {
+  display: flex;
+  gap: 1rem;
+}
+.card .card__place {
+  color: #2B283A;
+  text-transform: uppercase;
+  letter-spacing: 0.375rem;
+  display: flex;
+  gap: 1rem;
+}
+.card .card__place-link {
+  color: #918E9B;
+}
+.card .card__title {
+  hyphens: auto;
+  font-size: 1.5625rem;
+  font-weight: bold;
+  color: #2B283A;
+}
+.card .card__date {
+  display: flex;
+  gap: 1rem;
+  color: #2B283A;
+}
+.card .card__text {
+  color: #2B283A;
+}
+
+.cards {
+  padding: 20px 0;
+}
+.cards .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */

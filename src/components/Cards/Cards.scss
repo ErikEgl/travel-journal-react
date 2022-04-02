@@ -1,0 +1,11 @@
+@import "./Card/Card";
+
+.cards {
+  padding: 20px 0;
+  & .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+  }
+}

@@ -1,0 +1,52 @@
+.card {
+  font-size: 0.75rem;
+  font-weight: 300;
+  display: flex;
+  gap: 1.5rem;
+  line-height: 1;
+  flex-direction: column;
+  @include media(500px) {
+    flex-direction: row;
+  };
+  img {
+    border-radius: $main-border-radius;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    @include media(500px) {
+      width: 125px;
+
+    };
+  }
+  .card__inner-wrap {
+  }
+  .card__place-wrap {
+    display: flex;
+    gap: 1rem;
+  }
+  .card__place {
+    color: $main-txt-color;
+    text-transform: uppercase;
+    letter-spacing: 0.375rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .card__place-link {
+    color: $secondary-txt-color;
+  }
+  .card__title {
+    hyphens: auto;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    color: $main-title-color;
+  }
+  .card__date {
+    display: flex;
+    gap: 1rem;
+    color: $main-txt-color;
+
+  }
+  .card__text {
+    color: $main-txt-color;
+  }
+}
